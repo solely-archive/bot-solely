@@ -1,0 +1,24 @@
+{
+  "name": "bot-solely",
+  "version": "1.0.0",
+  "description": "Simple Discord Bot using the Eris library.",
+  "author": "Chloe Arciniega <solely@riseup.net>",
+  "main": "src/index.js",
+  "license": "zlib",
+  "private": true,
+  "scripts": {
+    "format:prettier": "prettier --w --plugin-search-dir=. .",
+    "lint:eslint": "eslint --fix src/**/*.js",
+    "start": "node src/index",
+    "test": "eslint src/**/*.js && prettier --c ."
+  },
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/prettier": "^2.7.2",
+    "eris": "^0.17.1",
+    "eslint": "^8.32.0",
+    "node-osu": "^2.2.1",
+    "prettier": "^2.8.3"
+  }
+}

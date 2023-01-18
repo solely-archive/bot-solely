@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# yarn
+.yarn/
+.yarn-integrity
+
+# environment variables
+.env
+.env.production
+
+# lock
+package-lock.json
+yarn.lock
+
+# README
+README.md
